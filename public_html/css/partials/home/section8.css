@@ -1,0 +1,357 @@
+/*Section 8*/
+/*X-small Height Screens*/
+@media (max-height: 360px) {
+    div#section8Heading {
+        margin-top: -15px;
+        font-size: 16px !important;
+        font-weight: bold !important;
+    }
+    
+    input#submitButton {
+        margin-top: 3px;
+        margin-bottom: 3px;
+        font-size: 15px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }   
+    
+    div > textArea#textAreaMessage {
+        max-height: 35px;
+        min-height: 35px;
+    }
+    
+    input[type="text"].textArea, input[type="email"].textArea, input[type="submit"].textArea
+    {
+        height: 30px;
+    }
+}
+
+/*X-Small Screens*/
+@media (max-width: 767px) {
+    div#section8Desc {
+        font-size: 15px;
+        margin-bottom: 5px;
+        margin-top: 0;
+    }
+    
+    div#section8Heading {
+        font-size: 45px;
+        font-weight: bold;
+    }
+    
+    input#submitButton {
+        margin-top: 3px;
+        margin-bottom: 3px;
+        font-size: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 80%;
+    }
+    
+    textArea#textAreaMessage {
+        margin-top: 3px;
+        margin-bottom: 3px;
+        min-height: 80px;
+        max-height: 80px;
+        width: 80%;
+    }
+    
+    input.textArea {
+        margin-top: 3px;
+        margin-bottom: 3px;
+        width: 80%;
+    }
+    
+    input[type="text"], input[type="email"], input[type="submit"]
+    {
+        font-size: 15px;
+        height: 40px;
+        border: #D2D3D9 solid;
+    }
+    
+    textarea[type="text"] {
+        font-size: 15px;
+        border: #D2D3D9 solid;
+    }
+    
+    ::-webkit-input-placeholder {
+        font-size: 15px;
+        font-family: descriptionFont;
+        color: #414042;
+        font-weight: bold;
+    }
+    :-moz-placeholder { /* older Firefox*/
+        font-size: 15px;
+        font-family: descriptionFont;
+        color: #414042;
+        font-weight: bold;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */ 
+        font-size: 15px;
+        font-family: descriptionFont;
+        color: #414042; 
+        font-weight: bold;
+    } 
+    :-ms-input-placeholder { 
+        font-size: 15px; 
+        font-family: descriptionFont;
+        color: #414042;
+        font-weight: bold;
+    }
+    :placeholder-shown {
+        font-size: 15px; 
+        font-family: descriptionFont;
+        color: #414042;
+        font-weight: bold;
+    }
+}
+
+/*Small Screens*/
+@media (min-width: 768px) and (max-width: 991px) {
+    div#section8Desc {
+        font-size: 20px;
+        margin-bottom: 5px;
+        margin-top: 0;
+    }
+    
+    div#section8Heading {
+        font-size: 65px;
+        font-weight: normal;
+    }
+    
+    input#submitButton {
+        font-size: 20px;
+        width: 70%;
+    }
+    
+    textArea#textAreaMessage {
+        min-height: 125px;
+        max-height: 125px;
+        width: 70%;
+    }
+    
+    input.textArea {
+        width: 70%;
+    }
+    
+    input[type="text"], input[type="email"], input[type="submit"]
+    {
+        font-size: 20px;
+        height: 50px;
+        border: #D2D3D9 solid;
+    }
+    
+    textarea[type="text"] {
+        font-size: 20px;
+        border: #D2D3D9 solid;
+    }
+    
+    ::-webkit-input-placeholder {
+        font-size: 20px;
+        font-family: descriptionFont;
+        color: #414042;
+        font-weight: bold;
+    }
+    :-moz-placeholder { /* older Firefox*/
+        font-size: 20px;
+        font-family: descriptionFont;
+        color: #414042;
+        font-weight: bold;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */ 
+        font-size: 20px;
+        font-family: descriptionFont;
+        color: #414042; 
+        font-weight: bold;
+    } 
+    :-ms-input-placeholder { 
+        font-size: 20px; 
+        font-family: descriptionFont;
+        color: #414042;
+        font-weight: bold;
+    }
+    :placeholder-shown {
+        font-size: 20px; 
+        font-family: descriptionFont;
+        color: #414042;
+        font-weight: bold;
+    }
+}
+
+/*Medium Screens*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    div#section8Desc {
+        font-size: 25px;
+        margin-bottom: 5px;
+        margin-top: 0;
+    }
+    
+    div#section8Heading {
+        font-size: 65px;
+        font-weight: normal;
+    }
+    
+    input#submitButton {
+        margin-top: 3px;
+        margin-bottom: 3px;
+        font-size: 25px;
+        width: 45%;
+    }
+    
+    textArea#textAreaMessage {
+        margin-top: 3px;
+        margin-bottom: 3px;
+        min-height: 125px;
+        max-height: 125px;
+        width: 45%;
+    }
+    
+    input.textArea {
+        margin-top: 3px;
+        margin-bottom: 3px;
+        width: 45%;
+    }
+    
+    input[type="text"], input[type="email"], input[type="submit"]
+    {
+        font-size: 20px;
+        height: 50px;
+        border: #D2D3D9 solid;
+    }
+    
+    textarea[type="text"] {
+        font-size: 20px;
+        border: #D2D3D9 solid;
+    }
+    
+    ::-webkit-input-placeholder {
+        font-size: 20px;
+        font-family: descriptionFont;
+        color: #414042;
+        font-weight: bold;
+    }
+    :-moz-placeholder { /* older Firefox*/
+        font-size: 20px;
+        font-family: descriptionFont;
+        color: #414042;
+        font-weight: bold;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */ 
+        font-size: 20px;
+        font-family: descriptionFont;
+        color: #414042; 
+        font-weight: bold;
+    } 
+    :-ms-input-placeholder { 
+        font-size: 20px; 
+        font-family: descriptionFont;
+        color: #414042;
+        font-weight: bold;
+    }
+    :placeholder-shown {
+        font-size: 20px; 
+        font-family: descriptionFont;
+        color: #414042;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 1200px) {
+    input[type="text"], input[type="email"], input[type="submit"]
+    {
+        font-size: 25px;
+        height: 70px;
+        border: #D2D3D9 solid;
+    }
+    
+    textarea[type="text"] {
+        font-size: 25px;
+        border: #D2D3D9 solid;
+    }
+    
+    ::-webkit-input-placeholder {
+        font-size: 25px;
+        font-family: descriptionFont;
+        color: #414042;
+        font-weight: bold;
+    }
+    :-moz-placeholder { /* older Firefox*/
+        font-size: 25px;
+        font-family: descriptionFont;
+        color: #414042;
+        font-weight: bold;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */ 
+        font-size: 25px;
+        font-family: descriptionFont;
+        color: #414042; 
+        font-weight: bold;
+    } 
+    :-ms-input-placeholder { 
+        font-size: 25px; 
+        font-family: descriptionFont;
+        color: #414042;
+        font-weight: bold;
+    }
+    :placeholder-shown {
+        font-size: 25px; 
+        font-family: descriptionFont;
+        color: #414042;
+        font-weight: bold;
+    }
+}
+ 
+#section8Desc {
+    color: #414042;
+    font-size: 25px;
+    font-family: descriptionFont;
+    font-weight: lighter;
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+#section8Form {
+    position: absolute;
+    top: 55%;
+    display: none;
+}
+
+#submitButton {
+    margin-right:  auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left:  auto;
+    font-size: 25px;
+    font-family: descriptionFont;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 45px;
+    background-color: #D9435E;
+    width: 35%;
+    min-width: 200px;
+    border: none;
+}
+
+#textAreaMessage {
+    min-height: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    min-width: 200px;
+}
+
+.noresize {
+    resize: none;
+}
+
+.textArea {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    min-width: 200px;
+}

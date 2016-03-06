@@ -1,0 +1,45 @@
+<div class="row" ng-cloak>
+    <a id="section6"></a>
+    <div class="section col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div id="section6Heading" class="sectionHeading col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+            {{section6Ctrl.section6Heading}}
+        </div>
+        <div class="center-div">
+            <img class="spinner" ng-src="{{homeCtrl.getSpinner().url}}">
+        </div>
+        <div id="section6Row" class="centerInDiv row" center-element>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="row">
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2" apply-parentheight>
+                        <span class="verticalCenterHelper"></span>
+                        <img ng-src="{{section6Ctrl.getLeftArrow().url}}" 
+                             ng-click="section6Ctrl.decrementClient()"/>
+                    </div>
+                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
+                        <div class="row">
+                            <div class="client col-lg-4 col-md-4 col-sm-4 hidden-xs text-center"
+                                 ng-repeat="client in section6Ctrl.getClientImages() | limitTo: 3">
+                                <img class="section6Image" ng-src="{{client.url}}"/>
+                            </div>
+                            <div class="client hidden-lg hidden-md hidden-sm col-xs-12 text-center"
+                                 ng-repeat="client in section6Ctrl.getClientImages() | limitTo: 1">
+                                <img class="section6Image" ng-src="{{client.url}}"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lgs-1 col-md-1 col-sm-1 col-xs-2" apply-parentheight>
+                        <span class="verticalCenterHelper"></span>
+                        <img ng-src="{{section6Ctrl.getRightArrow().url}}" 
+                             ng-click="section6Ctrl.incrementClient()"
+                             center-in-parent/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="section6ArrowDiv" class="arrowDiv col-lg-12 text-center">
+            <a ng-click="section6Ctrl.goToNextSection()" href="">
+                <img class="arrow" ng-src="{{homeCtrl.getBlackArrow().url}}" center-horizontal>
+            </a>
+        </div>
+    </div>
+</div>

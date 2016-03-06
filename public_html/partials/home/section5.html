@@ -1,0 +1,25 @@
+<div class="row" ng-cloak>
+    <a id="section5"></a>
+    <div id="section5Section" class="section col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div id="section5Heading" class="sectionHeading col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+            {{section5Ctrl.section5Heading}}
+        </div>
+        <div class="center-div">
+            <img class="spinner" ng-src="{{homeCtrl.getSpinner().url}}">
+        </div>
+        <div id="section5Row" class="centerInDiv row text-center" center-element>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" 
+                 ng-repeat="image in section5Ctrl.getServiceImages() | limitTo:4">
+                <img class="section5Image" ng-src="{{image.url}}"/>
+                <div class="section5Desc col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                    {{image.description}}
+                </div>
+            </div>
+        </div>
+        <div class="arrowDiv col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+            <a ng-click="section5Ctrl.goToNextSection()" href="">
+                <img class="arrow" ng-src="{{homeCtrl.getBlackArrow().url}}" center-horizontal>
+            </a>
+        </div>
+    </div>
+</div>

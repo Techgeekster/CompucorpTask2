@@ -1,0 +1,60 @@
+/*Section7*/
+/*X-small Height Screens*/
+@media (max-height: 310px) {
+    img.arrow {
+        bottom: 0;
+        margin-bottom: 5px;
+    }
+    
+    div#section7Heading {
+        margin-top: -15px;
+    }
+}
+
+/*X-Small Screens*/
+@media (max-width: 767px) {
+    div#section7Heading {
+        font-size: 40px;
+    }
+    
+    div#section7ArrowDiv {
+        position: relative;
+    }
+}
+
+/*Small Screens*/
+@media (min-width: 768px) and (max-width: 991px) {
+    div#section7Heading {
+        font-size: 55px;
+    }
+    
+    div#section7ArrowDiv {
+        position: relative;
+    }
+}
+
+/*Medium Screens*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    div#section7ArrowDiv {
+         position: relative; 
+    }
+}
+
+#map {
+    height:50%;
+    width:100%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+
+.infoWindowContent {
+    font-size:  14px !important;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+h2 {
+    margin-bottom:0;
+    margin-top: 0;
+}

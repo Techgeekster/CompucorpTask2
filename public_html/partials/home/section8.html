@@ -1,0 +1,33 @@
+<div class="row" ng-cloak>
+    <a id="section8"></a>
+    <div class="section col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div id="section8Heading" class="sectionHeading col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+            {{section8Ctrl.section8Heading}}
+        </div>
+        <div class="center-div">
+            <img class="spinnerVertical" ng-src="{{homeCtrl.getSpinner().url}}">
+        </div>
+        <form id="section8Form" ng-submit="section8Ctrl.sendContactRequest()" center-vertical>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <input name="name" type="text" class="textArea form-control noresize" 
+                       ng-model="section8Ctrl.name" placeholder="Name" required>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <input name="email" type="email" class="textArea form-control noresize" 
+                       ng-model="section8Ctrl.email" placeholder="Email" required>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <textarea name="message" type="text" wrap="physical" id="textAreaMessage" 
+                          class="form-control noresize" ng-model="section8Ctrl.message" 
+                          placeholder="Message" required>
+                </textarea>
+            </div>    
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <input type="submit" id="submitButton" class="btn btn-default" value="Send Message!">
+            </div>
+            <div id="section8Desc" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                {{section8Ctrl.section8Desc}}
+            </div>
+        </form>
+    </div>
+</div>

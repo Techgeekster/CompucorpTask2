@@ -1,0 +1,89 @@
+/*Section 5*/
+/*X-small Height Screens*/
+@media (max-height: 310px) {
+    img.arrow {
+        bottom: 0;
+        margin-bottom: 5px;
+    }
+    
+    div > div.section5Desc {
+        font-size: 15px;
+        margin-top: -30px;
+    }
+    
+    div > img.section5Image {
+        padding: 18%;
+        margin-top: -35px;
+        min-height: 50px;
+    }
+    
+    div > div#section5Heading {
+        font-size: 30px;
+        margin-top: -15px;
+    }
+    
+    div > div#section5Row {
+        top: 60%;
+    }
+}
+
+/*X-Small Screens*/
+@media (max-width: 767px) {
+    div.section5Desc {
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: -10px;
+        margin-bottom: 10px;
+        white-space: nowrap;
+    }
+    
+    img.section5Image {
+        width: 100px;
+        max-height: 200px;
+        min-height: 50px;
+    }
+    
+    div#section5Row {
+        margin-bottom: 0;
+        top: 50%;
+    }
+    
+    div#section5Heading {
+        font-size: 40px;
+    }
+    
+    div#section5Section {
+        height: 100vh;
+    }
+}
+
+/*Small Screens*/
+@media (min-width: 768px) and (max-width: 991px) {
+    div.section5Desc {
+        font-size: 17px;
+        font-weight: bold;
+    }
+    
+    div#section5Heading {
+        font-size: 55px;
+    }
+}
+
+.section5Image {
+    width: 100%;
+    padding: 10%;
+}
+
+.section5Desc {
+    color: #414042;
+    font-size: 25px;
+    font-family: descriptionFont;
+    font-weight: lighter;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+#section5Row {
+    padding: 10%;
+}

@@ -1,0 +1,28 @@
+<div class="row" ng-cloak>
+    <a id="section4"></a>
+    <div class="section col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="center-div">
+            <img class="spinner" ng-src="{{homeCtrl.getSpinner().url}}">
+        </div>
+        <div class="centerInDiv row" center-element>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <img id="section4Image" ng-src="{{section4Ctrl.getSection4Image().url}}"/>
+            </div>
+            <div class="descRow row">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+                <div id="section4Desc" class="col-lg-8 col-md-8 col-sm-8 col-xs-8 text-center">
+                    {{section4Ctrl.section4Desc1}}
+                    <span class="primaryBrandColor">
+                        {{section4Ctrl.section4DescBrandColorText}}
+                    </span>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+            </div>
+        </div>
+        <div class="arrowDiv col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+            <a ng-click="section4Ctrl.goToNextSection()" href="">
+                <img class="arrow" ng-src="{{homeCtrl.getPinkArrow().url}}" center-horizontal>
+            </a>
+        </div>
+    </div>
+</div>

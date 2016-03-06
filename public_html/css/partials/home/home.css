@@ -1,0 +1,81 @@
+/*Home*/
+
+/*Branding Fonts*/
+@font-face {
+    font-family: headerFont;
+    src: url('../../../content/fonts/museo/museo300-regular-webfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: descriptionFont;
+    src: url('../../../content/fonts/opensans/opensans-regular-webfont.ttf') format('truetype');
+}
+
+
+/*Keep AngularJs elements from showing before they are loaded*/
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+
+.arrow {
+    left: 50%;
+    max-height: 50px;
+    position: absolute;
+    bottom: 2em;
+}
+
+.arrowBuffer {
+    height: 100px;
+}
+
+.arrowDiv {
+    position: absolute;
+    margin-top: 100vh;
+}
+
+.center-div {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+}
+
+.centerInDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    display: none;
+}
+
+.descRow {
+    width: 100%;
+    margin: auto;
+}
+
+.primaryBrandColor {
+    color: #D9435E;
+}
+
+.sectionHeading {
+    color: #414042;
+    font-size: 75px;
+    font-family: headerFont;
+    margin-top: 0;
+}
+
+.section {
+    height: 100vh;/*100% of viewport height*/
+    position: relative;
+    background-color: #EDEDED;
+    padding: 0;
+}
+
+.spinner, .spinnerVertical {
+    max-height: 100px;
+}
